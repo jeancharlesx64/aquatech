@@ -1,0 +1,50 @@
+.header{
+    height: 90px;
+    width: 100%;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 10%, rgba(9,9,121,1) 55%, rgba(0,171,205,1) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10%;   
+}
+.logo-title{
+    color: #ffffff;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+.logo-tech{
+    color: #4ae4e4;
+}
+.nav-list{
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    list-style: none;
+}
+.nav-link{
+    font-family: 'Poppins', Helvetica, sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+    color: #ececec;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.nav-link:hover{
+    color: #c2c2c2;
+}
+.on{
+    color: white;
+    font-weight: bolder;
+}
+.btn-login{
+    width: 90px;
+    height: 30px;
+    background-color: #FFF;
+    color: #000;
+    padding: 10px 25px;
+    font-weight: bolder;
+    border-radius: 5px;
+}
+.btn-login:hover{
+    background-color: #b8b8b8;
+    color: #FFF;
+}
